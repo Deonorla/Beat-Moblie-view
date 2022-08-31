@@ -28,12 +28,12 @@ const Electronics = () => {
 
   return (
     <section className=" pt-[4rem]  pb-[2rem]" >
-    <h2 className=" sm:px-4 sm:text-5xl section_title section_title-gradient product_line">
-        Products 
+    <h2 className="section_title section_title-gradient product_line">
+        Electronics  
     </h2>
 
 
-    <div className="relative  flex px-6 justify-center items-center text-sm ">
+    <div className="relative  flex  justify-center items-center text-sm ">
              <BsSearch  className="absolute  top-2 w-3 h-3 text-xs left-[-3rem]" />
            
             <input

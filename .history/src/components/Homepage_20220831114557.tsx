@@ -3,7 +3,7 @@ const Homepage = () => {
   return (
   
          <section className="section " >
-                <div className="  grid">
+                <div className="sm:grid-cols-[.8fr,1fr]  grid">
                     <div>
                         <img  
                         src="assets/images/home.png" alt="" 
@@ -20,7 +20,14 @@ const Homepage = () => {
                             <p className="mb-[2.5rem] text-lg text-zinc-500 ">Enjoy award-winning Beats sound with wireless listening freedom and a sleek, 
                                 streamlined design with comfortable padded earphones, delivering first-rate playback
                             </p>
-                           
+                            <a 
+                            href="" 
+                            className="button button--flex">
+                                <span className="button--flex">
+                                    {/*<i className="ri-shopping-bag-line"></i>*/} Add to Bag
+                                </span>
+                                <span className="text-[1.123rem] font-semibold ml-3">$299</span>
+                            </a>
                         </div>
                     </div>
                 </div>

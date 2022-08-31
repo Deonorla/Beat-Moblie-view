@@ -29,7 +29,7 @@ const Electronics = () => {
   return (
     <section className=" pt-[4rem]  pb-[2rem]" >
     <h2 className=" sm:px-4 sm:text-5xl section_title section_title-gradient product_line">
-        Products 
+        Electronics  
     </h2>
 
 

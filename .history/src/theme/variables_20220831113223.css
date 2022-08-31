@@ -19,7 +19,7 @@ http://ionicframework.com/docs/theming/ */
 @layer components {
 
   .button{
-    @apply  inline-block bg-black py-4 px-5 rounded-lg transition duration-[0.3s];
+    @apply sm:w-[2rem] sm:h-[2rem] inline-block bg-black py-4 px-5 rounded-lg transition duration-[0.3s];
   }
  .box {
   @apply max-w-[968px] mx-[1.5rem];

@@ -19,7 +19,7 @@ http://ionicframework.com/docs/theming/ */
 @layer components {
 
   .button{
-    @apply  inline-block bg-black py-4 px-5 rounded-lg transition duration-[0.3s];
+    @apply inline-block bg-black py-4 px-5 rounded-lg transition duration-[0.3s];
   }
  .box {
   @apply max-w-[968px] mx-[1.5rem];
@@ -118,7 +118,7 @@ http://ionicframework.com/docs/theming/ */
   @apply relative  bg-zinc-900 p-3 rounded-lg grid;
 }
 .card_img {
-  @apply w-[100px] h-[100px] sm:mx-0 mx-auto sm:w-[70px] ;
+  @apply w-[100px] h-[100px]  sm:w-[70px] ;
 }
 }
 

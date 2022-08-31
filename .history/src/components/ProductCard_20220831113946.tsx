@@ -19,11 +19,11 @@ const ProductCard = ({title, image, price}: any) => {
 
             <div className='flex flex-col mt-7 '>
                 <div className=''>
-                  <h3 className="text-lg font-semibold sm:font-normal sm:text-base text-center mb-4 truncate sm:max-w-[6rem] max-w-[7.5rem]">{title}</h3>
+                  <h3 className="text-lg font-semibold sm:text-base text-center mb-4 truncate sm:max-w-[6rem] max-w-[7.5rem]">{title}</h3>
                 </div>
                 <div className='flex justify-between items-center '>
                     <span className="product_price "> ${price}</span>
-                    <button className="button buttom--flex sm:py-2 sm:px-3 sm:text-base cursor-pointer "
+                    <button className="button buttom--flex sm:py-2 sm:px-2 sm:text-base cursor-pointer "
                      onClick ={() => handleAddToCart({title, image, price})}
                     >
                     <BsCart3 className='button_icon' />

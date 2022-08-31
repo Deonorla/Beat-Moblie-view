@@ -3,7 +3,7 @@ const Homepage = () => {
   return (
   
          <section className="section " >
-                <div className="  grid">
+                <div className="sm:grid-cols-[.8fr,1fr]  grid">
                     <div>
                         <img  
                         src="assets/images/home.png" alt="" 
